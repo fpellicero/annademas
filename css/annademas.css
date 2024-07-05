@@ -1,0 +1,150 @@
+h1 {
+    font-size: 19pt !important;
+}
+
+header {
+    text-align: center;
+}
+
+header img {
+    height: 350px;
+    margin-top: 21px;
+}
+
+#page img {
+    max-width: 100%;
+    height: auto !important;
+}
+
+.container {
+    margin-top: 25px;
+}
+
+.project {
+    text-align: center;
+}
+
+.img_project_home {
+    width: 400px;
+    min-width: 100%;
+    position: relative;
+    top: -10%;
+    
+    left: 100%;
+    margin-left: -200%;
+}
+
+#description img {
+    max-width: 100%;
+    margin-bottom: 15px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#navigation {
+    font-weight: bold;
+    font-size: 1.2em;
+    bottom: 30px;
+    position: fixed;
+    right: 50px;
+    text-align: right;
+    z-index: 20;
+}
+
+.category {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 140;
+    margin-left: 10px;
+    position: relative;
+    left: -5px;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: black;
+    text-decoration: none !important;
+}
+
+.img_project {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.project {
+    overflow: hidden;
+    height: 200px;
+}
+
+.project_title {
+    margin-left: 30px;
+    font-family: Helvetica;
+    font-size: 1.2em;
+}
+
+.project_subtitle {
+    margin-left: 30px;
+    color: grey;
+}
+
+iframe {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    max-width: 100%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#graphic {
+    background-image: url("/img/graphic_design.png");
+}
+
+#graphic:hover {
+    background-image: url("/img/graphic_design_hover.png");
+}
+
+#visual {
+    background-image: url("/img/visual_identity.png");
+}
+
+#visual:hover {
+    background-image: url("/img/visual_identity_hover.png");
+}
+
+#illustration {
+    background-image: url("/img/illustration.png");
+}
+
+#illustration:hover {
+    background-image: url("/img/illustration_hover.png");
+}
+
+#motion {
+    background-image: url("/img/motion_graphics.png");
+}
+
+#motion:hover {
+    background-image: url("/img/motion_graphics_hover.png");
+}
+
+#audiovisual {
+    background-image: url("/img/audiovisual.png");
+}
+
+#audiovisual:hover {
+    background-image: url("/img/audiovisual_hover.png");
+}
+
+#creative {
+    background-image: url("/img/creative_strategy.png");
+}
+
+#creative:hover {
+    background-image: url("/img/creative_strategy_hover.png");
+}
+
+.col-md-4.categoryProject {
+    min-height: 280px;
+}
